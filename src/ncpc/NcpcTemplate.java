@@ -16,7 +16,7 @@ public class NcpcTemplate {
     }
 
     private void parseInput() throws FileNotFoundException {
-        String filePath = "ncpc/ncpc2022/practice1/adolescentarchitecture/input1";
+        String filePath = "resources/ncpc/ncpc2022/practice1/adolescentarchitecture/input1";
         File inputFile = new File(filePath);
         Scanner scanner = new Scanner(inputFile);
 
